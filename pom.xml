@@ -5,7 +5,7 @@
 	<artifactId>webapp</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>webappExample Maven Webapp</name>
+	<name>webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
@@ -30,7 +30,7 @@
 	</dependencies>
 	
 	<build>
-		<finalName>webappExample</finalName>
+		<finalName>webapp</finalName>
 		
 		<plugins>
 	<!-- Maven Plugin for Tomcat -->
@@ -53,7 +53,7 @@
 				<version>9.2.11.v20150529</version>
 				<configuration>
 					<webApp>
-						<contextPath>/webAppExample</contextPath>
+						<contextPath>/webApp</contextPath>
 					</webApp>
 				</configuration>
 			</plugin> -->
